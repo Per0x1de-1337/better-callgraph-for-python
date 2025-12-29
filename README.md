@@ -93,8 +93,8 @@ Designed for scalability on real-world codebases, this tool balances precision w
 - **Benchmarks** :
   | Codebase Size | Files(excluding tests) | Time |
   |---------------|-------|------|
-  | FastChat | 270 | 0.5s |
-  | llama-index | 10,800 | 5s |
+  | FastChat | 270 | 200ms |
+  | llama-index | 10,800 | 1.2s |
 
 These times include full pipeline (discovery → traces). For larger repos, parallelize file parsing via multiprocessing in future iterations.
 
